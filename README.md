@@ -4,13 +4,29 @@ Crystal Collector - The Game!
 
 log - 5:50PM - psuedocode
 
+Restart
+crystal1 = Math.floor(Math.random() * (12-1+1)) + 1;
+crystal2 = Math.floor(Math.random() * (12-1+1)) + 1;
+crystal3 = Math.floor(Math.random() * (12-1+1)) + 1;
+crystal4 = Math.floor(Math.random() * (12-1+1)) + 1;
+
+
+
+
+
+
 nouns:
 
 	score - refers to the number that users need to reach with the points they have to win
 	
-	 - refers to the amounts that can be stored in each cystal they have, can be 1-12
+	 - refers to the amounts that can be stored in each crystal they have, can be 1-12
 
 	randomCrystalValue- randomly generated numbers
+
+		[18...120] - how to gen array num 18-120
+		function scoreRange(18,120) {
+			return Math.floor(Math.random() * (120-18 + 1)) +18
+		}
 	
 	cystals - [crystal] refers to the elements which carry the points that users put towards the score to win the game
 
@@ -49,6 +65,7 @@ actions:
 		2. the score is set to a random number between 18-120.
 		3. the crystals are each assigned new random values.
 
+on click, add value of button to sumofpoints
 
 All stats are displayed onto the page:
 
