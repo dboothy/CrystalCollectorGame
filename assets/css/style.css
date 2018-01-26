@@ -1,7 +1,26 @@
-.heading{
+.heading {
 
 	background-color: orange;
 	font-size: xx-large;
 	color: white;
 	text-align: center;
+}
+
+body {
+
+	background: url('../images/8bitcity.png');
+
+
+}
+
+.dexter img: hover {
+
+opacity: .5
+
+}
+
+.bonnie img: hover {
+
+	opacity: .5
+
 }
