@@ -1,4 +1,4 @@
-# week-4-game
+# Crystal Collector Game!
 Crystal Collector - The Game!
 
 
